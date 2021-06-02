@@ -5,13 +5,22 @@ $color-2: #6C6F7D;
 $color-3: #985F6F;
 $color-4: #4E4C67;
 
+
+$main-color-1: #8029A3;
+$main-color-2: #9130A5;
+$main-color-3: #C143AA;
+$main-color-4: #F35639;
+$main-color-5: #F98B48;
+$main-color-6: #FCA950;
+$main-color-7: #FEB955;
+
 .home-window {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #fff;
+  background-color: #f5f5f5;
   font-family: "Muli", sans-serif;
 
   .container-header h3 {
@@ -21,20 +30,19 @@ $color-4: #4E4C67;
   .top {
     position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 50px;
     width: 100%;
 
-    .home-logo {
-      position: absolute;
-      left: 20px;
-      font-family: "Monoton", sans-serif;
-      font-weight: 400;
-      font-size: 22px;
-      color: $color-3;
-      text-align: center;
-      margin-top: 10px;
+    .new-logo {
+      width: 150px;
+      height: 150px;
+      margin: 10px 0 0 -10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
 
     i {
@@ -43,10 +51,10 @@ $color-4: #4E4C67;
       font-size: 15px;
       cursor: pointer;
       color: #fff;
-      border: 2px solid $color-4;
+      border: 2px solid $main-color-5;
       border-radius: 5px;
       padding: 5px;
-      background-color: $color-4;
+      background-color: $main-color-5;
 
       &:active {
         transform: scale(0.97);
@@ -88,17 +96,33 @@ $color-4: #4E4C67;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    width: 93%;
+    padding: 5px;
+    width: 96%;
+    border-radius: 5px;
+    background-color: #fff;
 
     .container-header {
+      display: flex;
+      align-items: center;
       width: 100%;
+      position: relative;
+
+      h3 {
+        font-size: 14px;
+      }
+
+      i {
+        position: absolute;
+        right: 5px;
+        color: rgba(34, 32, 32, 0.6);
+        font-size: 13px;
+      }
     }
 
     .deals-content {
       width: 100%;
       height: 150px;
       margin-top: 5px;
-      background: #f2f2f2;
       border-radius: 5px;
     }
   }
@@ -106,33 +130,59 @@ $color-4: #4E4C67;
   .new-arrivals {
     display: flex;
     flex-direction: column;
-    width: 93%;
-    margin-top: 20px;
+    width: 96%;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
     z-index: 1;
 
     .container-header {
       width: 100%;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      h3 {
+        font-size: 14px;
+      }
+
+      i {
+        position: absolute;
+        right: 5px;
+        color: rgba(34, 32, 32, 0.6);
+        font-size: 13px;
+      }
     }
 
     .new-arrivals-content {
       width: 100%;
       height: 500px;
       margin-top: 5px;
-      background: #f2f2f2;
-      border-radius: 5px;
     }
   }
 
   .recommendations {
     display: flex;
     flex-direction: column;
-    width: 93%;
-    margin: 20px 0 70px;
+    width: 96%;
+    margin: 15px 0 70px;
+    padding: 5px;
+    background-color: #fff;
+
+    .container-header {
+      display: flex;
+      position: relative;
+      align-items: center;
+
+      h3 {
+        font-size: 14px;
+      }
+    }
 
     .recommendations-content {
       width: 100%;
       height: 500px;
-      background-color: #f2f2f2;
       margin-top: 5px;
     }
   }

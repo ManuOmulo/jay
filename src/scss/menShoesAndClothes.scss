@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?&family=Mulish:wght@400;700&display=swap');
+
+$color-1: #EBC3DB;
+$color-2: #6C6F7D;
+$color-3: #985F6F;
+$color-4: #4E4C67;
+
+$main-color-1: #8029A3;
+$main-color-2: #9130A5;
+$main-color-3: #C143AA;
+$main-color-4: #F35639;
+$main-color-5: #F98B48;
+$main-color-6: #FCA950;
+$main-color-7: #FEB955;
+
+.men-clothing-window {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f5f5f5;
+  font-family: "Muli", sans-serif;
+  scroll-behavior: smooth;
+
+  .back-nav {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    width: 60px;
+
+    .back-navigation {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: $color-4;
+
+      p {
+        margin-left: 3px;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .section-header {
+    background-color: $main-color-5;
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+
+    h3 {
+      font-size: 13px;
+    }
+  }
+
+  .shirts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 95%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .hoodies {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 95%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .trousers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    width: 95%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+
+  // *********** Shoes ************
+
+  .sneakers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 95%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .formal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 95%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .boots {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    width: 95%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+}

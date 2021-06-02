@@ -1,6 +1,8 @@
 import React from "react"
 import CarouselContainer from "./custom/CarouselContainer";
 
+import logo from "./images/logos/voirme4.png"
+
 // components
 import Nav from "./Nav"
 
@@ -13,9 +15,10 @@ const Home = () => {
       <Nav />
 
       <div className="top">
-        <div className="home-logo">
-          <p>Voirme</p>
+        <div className="new-logo">
+          <img src={logo} alt="logo"></img>
         </div>
+
         <i className="far fa-heart"></i>
       </div>
 
@@ -26,6 +29,7 @@ const Home = () => {
       <div className="deals">
         <div className="container-header">
           <h3>Deals of the Week</h3>
+          <i className="fas fa-arrow-right"></i>
         </div>
 
         <div className="deals-content"></div>
@@ -34,6 +38,7 @@ const Home = () => {
       <div className="new-arrivals">
         <div className="container-header">
           <h3>New Arrivals</h3>
+          <i className="fas fa-arrow-right"></i>
         </div>
 
         <div className="new-arrivals-content"></div>
