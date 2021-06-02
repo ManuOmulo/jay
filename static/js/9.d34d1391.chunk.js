@@ -1,2 +1,0 @@
-(this.webpackJsonpjay=this.webpackJsonpjay||[]).push([[9],{66:function(n,t,e){"use strict";e.r(t);e(0);var s=e(1);t.default=function(){return Object(s.jsx)("div",{children:Object(s.jsx)("h2",{children:"Women's Clothing"})})}}}]);
-//# sourceMappingURL=9.d34d1391.chunk.js.map
